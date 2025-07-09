@@ -32,3 +32,33 @@ header{
 .hero h1{
     font-size: 72px;
 }
+
+.first-section{
+    display: flex;
+}
+
+.Offer-container{
+
+}
+
+.happy-new-year{
+    margin: 120px 0;
+    color: #FF0000;
+    text-align: center;
+}
+.happy-new-year h1{
+    font-size: 88px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.happy-new-year h5{
+    font-size: 24px;
+    font-weight: 500px;
+    margin-bottom: 16px;
+}
+.happy-new-year h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 50px;
+}
