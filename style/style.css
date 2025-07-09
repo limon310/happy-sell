@@ -1,0 +1,34 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}  
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Header Style*/
+
+header{
+    max-width: 1320px;
+    margin: 50px auto;
+    background-image: url("../images/Banner\ Image.png");
+    height: 600px;
+    border-radius: 16px;
+}
+.hero{
+    text-align: center;
+    align-items: center;
+    padding: 177px 344px 177px 344px;
+    color: #FFFFFF;
+}
+.hero h3{
+    font-size: 32px;
+    
+}
+.hero h1{
+    font-size: 72px;
+}
