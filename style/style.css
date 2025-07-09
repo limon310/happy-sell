@@ -15,7 +15,8 @@
 header{
     max-width: 1320px;
     margin: 50px auto;
-    background-image: url("../images/Banner\ Image.png");
+    /* background-image: url("../images/Banner\ Image.png"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(../images/Banner\ Image.png);
     height: 600px;
     border-radius: 16px;
 }
@@ -31,6 +32,7 @@ header{
 }
 .hero h1{
     font-size: 72px;
+    font-weight: 900px;
 }
 
 .first-section{
@@ -61,4 +63,36 @@ header{
     font-weight: bold;
     color: #070211;
     margin-bottom: 50px;
+}
+
+.mid-night-party{
+    /* background-image: url("../images/Vectorrr.png"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url('../images/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+}
+.party{
+    color: #FFFFFF;
+    padding: 126px 39px 107px 126px;
+    
+}
+.party h1{
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.party p{
+    font-size: 18px;
+    color: #ffffffc0;
+}
+.party input{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 48px;
+}
+.mid-night-party img{
+    padding: 67px 138px 67px 39px;
 }
