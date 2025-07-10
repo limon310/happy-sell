@@ -96,3 +96,32 @@ header{
 .mid-night-party img{
     padding: 67px 138px 67px 39px;
 }
+
+/*Address section */
+
+.address-section{
+    max-width: 1320px;
+    margin: 120px auto;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.address{
+    text-align: center;
+    padding: 100px 350px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 2em;
+    align-items: center;
+}
+.address button{
+    font-size: 20px;
+    font-weight: bold;
+    color:#FFFFFF;
+    background-color: #FF0000;
+    border-radius: 8px;
+    padding: 16px 32px;
+    margin-top: 48px;
+}
+.address span{
+    color: #FF0000;
+}
